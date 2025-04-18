@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: newsbot-aboziyad
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7949180608:AAEZ7XG8Hz2Y0lCEu4BCHVQaKmeSKOSq180
+      - key: CHANNEL_ID
+        value: @FastNews_Channel
